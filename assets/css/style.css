@@ -1,11 +1,12 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
 * {
-    font-family: 'Source Sans Pro', sans-serif;    
+    font-family: 'Source Sans Pro', sans-serif;
     padding: 0;
     margin: 0;
     max-width: 100%;
 }
+
 body {
     /* background: #212529; */
     background: black;
@@ -13,14 +14,14 @@ body {
 }
 
 /* Menu styling */
-.menu{
-display: flex;
-margin-left: 100px;
-margin-top: 30px;
+.menu {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 30px;
 }
-.navButton{
+.navButton {
     margin-top: 20px;
-    background-color: #edd927 ;
+    background-color: #edd927;
     border-radius: 10px;
     padding: 5px 13px;
     border: none;
@@ -43,55 +44,53 @@ margin-top: 30px;
     display: flex;
     font-size: 35px;
 }
+
 .color {
     color: #edd927;
 }
-
 /* section two with my paragraph and brief */
-.quoteBrief{
+.quoteBrief {
     display: flex;
-    padding-top:80px;
+    padding-top: 80px;
     padding-left: 80px;
     color: white;
 }
-.fa-solid{
+p>.fa-solid {
     color: #edd927;
     font-size: 50px;
 }
-.quote{
+.quote {
     padding-right: 30px;
     width: 45%;
     font-size: 38px;
-
 }
-.verticalLine{
+.verticalLine {
     border-right: 2px solid #edd927;
     height: 350px;
-
 }
-.brief{
+.brief {
     width: 45%;
     font-size: 35px;
     text-align: center;
     margin-left: 20px;
 }
-.row{
+.row {
     display: flex;
 }
-.column{
+.column {
     padding-top: 20px;
     width: 100%;
     padding-left: 10px;
 }
-.column>img{
+.column>img {
     width: 100%;
     height: 150px;
     border-radius: 10px;
 }
-.instructionButton{
+.instructionButton {
     padding-left: 50px;
 }
-#clickFruit{
+#clickFruit {
     padding: 5px 13px;
     background-color: #edd927;
     color: white;
@@ -100,9 +99,36 @@ margin-top: 30px;
     margin-top: 20px;
     border: none;
 }
-#clickFruit:hover{
+#clickFruit:hover {
     color: black;
     font-weight: bolder;
 }
+footer {
+    bottom: 20px;
+    /* position: fixed; */
+    margin-left: 20px;
+    font-size: 15px;
+    border: 2px solid #edd927;
+}
+.footerDetails {
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+}
+.footerPart,
+.footerSocials {
+    display: flex;
+    margin-left: 70px;
+}
+i:hover {
+    color: #edd927;
+}
+.icons>i {
+    padding-left: 20px;
+    font-size: 30px;
+}
+.innerIcons {
+    padding-right: 10px;
+    font-size: 30px;
 
-  
+}
