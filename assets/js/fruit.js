@@ -42,9 +42,14 @@ function fetchFruits() {
 				console.log(input)
 				fetch(`https://fit-life-food.p.rapidapi.com/nutrition/${input}`, options)
 					.then(response => response.json())
-					.then(nutrients=>{
+					.then(nutrients=>{	Object.entries(nutrients).forEach(([key,value])=>{
+						let nutrient=`${key}:${value}`
+						console.log(nutrient)
+						displayNutrients(nutrient)
+			document.getElementById("btnSubmit").disabled = "false"
+		
 
-						
+
 					}
 						)})
 						.catch(err => console.error(err));
