@@ -77,6 +77,16 @@ function getNutrients(fruitName) {
 	  })
 	  .then(function (data) {
 
+		for(let i = 0; i<data.length;i++){
+			let frtNm = data[i].name
+			if(frtNm === fruitName){
+				let element = (data[i].nutritions)
+				Object.entries(element).forEach(([key, value]) => {
+				let nutrient = `${key} : ${value}`
+				displayNutrients(nutrient)
+				})
+			}
+		}
 
 	  });
   }
