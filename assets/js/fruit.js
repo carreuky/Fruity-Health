@@ -14,3 +14,12 @@ function fetchFruits() {
 		 }))
 		.catch(err => console.error(err));
 	}
+	function displayfruitsName(dataName) {
+		let h=document.createElement('h2')
+		let containerCard=document.getElementById('myFruitsContainer')
+		let card=document.createElement('div')
+		h.innerText=dataName.charAt(0).toUpperCase() + dataName.slice(1)
+		h.style.paddingLeft='20px'
+		card.appendChild(h)
+		containerCard.appendChild(card)
+		}
