@@ -38,7 +38,16 @@ function fetchFruits() {
 		function fetchNutrients(fruitPassed) {
 			form.addEventListener('submit', (e)=>{
 				e.preventDefault()
+				let input= `${e.target['input-fruit'].value} `.toLowerCase();
+				console.log(input)
+				fetch(`https://fit-life-food.p.rapidapi.com/nutrition/${input}`, options)
+					.then(response => response.json())
+					.then(nutrients=>{
+
+						
+					}
+						)})
+						.catch(err => console.error(err));
 
 		}
-	)
-}
+	
