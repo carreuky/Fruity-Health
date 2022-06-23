@@ -26,5 +26,11 @@ function fetchFruits() {
 		let clickFruits=document.getElementById('clickFruit')
 		clickFruits.addEventListener('click', (e)=>{
 			e.preventDefault()
+			let formContainer=document.getElementById('formContainer')
+			formContainer.style.display='block'
+			let headingFruit=document.getElementById('headingFruit')
+			headingFruit.style.display='block'
+			let containerCard=document.getElementById('myFruitsContainer')
+			containerCard.style.display='block'			
 		
 		})
