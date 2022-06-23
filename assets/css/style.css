@@ -104,6 +104,13 @@ p>.fa-solid {
     color: black;
     font-weight: bolder;
 }
+#headingFruit{
+    display: none;
+    margin-left: 100px;
+    margin-top:50px;
+    font-size: 30px;
+    font-weight: lighter;
+  }
 footer {
     bottom: 20px;
     /* position: fixed; */
