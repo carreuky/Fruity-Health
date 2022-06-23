@@ -23,3 +23,8 @@ function fetchFruits() {
 		card.appendChild(h)
 		containerCard.appendChild(card)
 		}
+		let clickFruits=document.getElementById('clickFruit')
+		clickFruits.addEventListener('click', (e)=>{
+			e.preventDefault()
+		
+		})
