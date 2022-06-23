@@ -5,3 +5,12 @@ const options = {
     'X-RapidAPI-Host': 'fit-life-food.p.rapidapi.com'
 	}
 };
+function fetchFruits() {
+	fetch('https://fit-life-food.p.rapidapi.com/food', options)
+		.then(response => response.json())
+		.then(response => response.forEach(fruit =>{
+			console.log(fruit)
+			displayfruitsName(fruit)
+		 }))
+		.catch(err => console.error(err));
+	}
