@@ -55,4 +55,7 @@ function fetchFruits() {
 						.catch(err => console.error(err));
 
 		}
+	)}
+fetchNutrients()
+
 	
