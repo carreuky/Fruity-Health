@@ -57,5 +57,13 @@ function fetchFruits() {
 		}
 	)}
 fetchNutrients()
+let container=document.getElementById('contEach')
+function displayNutrients(dataFruit) {
+	let eachNutrients = document.createElement("p");
+  container.append(eachNutrients)
+  eachNutrients.textContent=dataFruit
+
+}
+
 
 	
