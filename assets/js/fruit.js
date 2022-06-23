@@ -35,3 +35,10 @@ function fetchFruits() {
 			fetchFruits()
 		})
 		let form = document.getElementById('form')
+		function fetchNutrients(fruitPassed) {
+			form.addEventListener('submit', (e)=>{
+				e.preventDefault()
+
+		}
+	)
+}
