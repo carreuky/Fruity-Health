@@ -32,5 +32,5 @@ function fetchFruits() {
 			headingFruit.style.display='block'
 			let containerCard=document.getElementById('myFruitsContainer')
 			containerCard.style.display='block'			
-		
+			fetchFruits()
 		})
