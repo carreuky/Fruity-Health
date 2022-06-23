@@ -111,6 +111,17 @@ p>.fa-solid {
     font-size: 30px;
     font-weight: lighter;
   }
+  #myFruitsContainer{
+    display: none;
+    overflow-y: scroll;
+    height: 432px;
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-bottom:50px;
+    width: 400px;
+    border: 2px solid #edd927;
+    background: #211f1e;
+  }
 footer {
     bottom: 20px;
     /* position: fixed; */
