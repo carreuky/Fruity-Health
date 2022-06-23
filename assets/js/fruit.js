@@ -1,4 +1,5 @@
 let container = document.getElementById('contEach')
+let formContainer = document.getElementById('formContainer')
 let url ='http://localhost:3000/fruit'
 function fetchFruits() {
 	fetch('http://localhost:3000/fruit')
@@ -12,10 +13,15 @@ function fetchFruits() {
 			h.style.paddingLeft = '20px'
 			card.appendChild(h)
 			containerCard.appendChild(card)
+			h.addEventListener('mouseover', ()=>{
+				h.style.color='#edd927'
+			})
+			h.addEventListener('mouseout',()=>{
+				h.style.color='white'
+			})
 
 			h.addEventListener('click' , ()=>{
 				container.innerHTML = ''
-				let formContainer = document.getElementById('formContainer')
 				formContainer.style.display = 'block'
 				getNutrients(fruit.name)
 			
@@ -34,10 +40,15 @@ clickFruits.addEventListener('click', (e) => {
 	containerCard.style.display = 'block'
 	fetchFruits()
 })
-function displayNutrients(dataFruit) {
+let bh=document.createElement('h1')
+function displayNutrients(dataFruit,frtNm) {
+	bh.innerText=frtNm
+	bh.style.border='2px solid #edd927'
+	bh.style
+	formContainer.append(bh)
 	let eachNutrients = document.createElement("p");
-	eachNutrients
 	eachNutrients.style.fontSize='20px'
+	formContainer.append(bh)
 	container.append(eachNutrients)
 	eachNutrients.textContent = dataFruit.charAt(0).toUpperCase() + dataFruit.slice(1) + ' g'
 
@@ -55,7 +66,11 @@ function getNutrients(fruitName) {
 				let element = (data[i].nutritions)
 				Object.entries(element).forEach(([key, value]) => {
 				let nutrient = `${key} : ${value}`
-				displayNutrients(nutrient)
+				// let bh=document.createElement('h2')
+				// bh.innerText=frtNm
+				console.log(bh)
+
+				displayNutrients(nutrient,frtNm)
 				})
 			}
 		}
