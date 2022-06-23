@@ -34,3 +34,4 @@ function fetchFruits() {
 			containerCard.style.display='block'			
 			fetchFruits()
 		})
+		let form = document.getElementById('form')
