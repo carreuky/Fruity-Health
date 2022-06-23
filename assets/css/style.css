@@ -122,6 +122,16 @@ p>.fa-solid {
     border: 2px solid #edd927;
     background: #211f1e;
   }
+  #formContainer{
+    display: none;
+    height: 382px;
+    /* background: pink; */
+    border: 2px solid #edd927;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding: 20px;    
+    background: #211f1e;
+  }
 footer {
     bottom: 20px;
     /* position: fixed; */
