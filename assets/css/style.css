@@ -104,6 +104,9 @@ p>.fa-solid {
     color: black;
     font-weight: bolder;
 }
+#section{
+    display: flex;
+  }
 #headingFruit{
     display: none;
     margin-left: 100px;
