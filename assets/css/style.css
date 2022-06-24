@@ -112,10 +112,13 @@ p>.fa-solid {
   }
 #headingFruit{
     display: none;
-    margin-left: 100px;
+    text-align: center;
+    margin-left: 400px;
     margin-top:50px;
     font-size: 30px;
     font-weight: lighter;
+    border: 2px solid #edd927;
+    width: 450px;
   }
   #myFruitsContainer{
     display: none;
