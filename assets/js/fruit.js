@@ -1,3 +1,5 @@
+window.addEventListener('DOMContentLoaded', (event) => {
+
 let container = document.getElementById('contEach')
 let formContainer = document.getElementById('formContainer')
 let url ='http://localhost:3000/fruit'
@@ -77,3 +79,4 @@ function getNutrients(fruitName) {
 
 	  });
   }
+})
