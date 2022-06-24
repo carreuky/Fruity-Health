@@ -12,6 +12,11 @@ This is an application done using HTML CSS and Javascript. Allows user to select
 3. Click button to open the fruit list
 4. Click specific fruit to check nutrients
 5. View the results of your request
+
+# Video & Screenshot
+Check The Video below for more assistance
+<br>[Video](https://drive.google.com/file/d/1ooLVTeCWQYdpTEBW4Gy2UhSkrBl6uWjj/view?usp=sharing)
+<br>[Picture](https://drive.google.com/file/d/1UiLzkpswL03jMKKpBxhFvjca_az-ZwXx/view?usp=sharing)
 # Gadgets 
 * Access application using computer, mobile phone or any other garget.
  * Internet access
@@ -34,6 +39,8 @@ Click this link to view the live web application https://github.com/carreuky/Fru
 # Contribution
 Open to contribution to make my web page more user friendly. Add more fruits on my API. Open discussion available with anyone.
 ****
+# Author 
+Kelvin Nderitu<br>LinkedIn [Click](https://www.linkedin.com/in/kelvin-nderitu-5845b3208/)
 # LICENSE
 * Application free of charge.
 * The MIT License
