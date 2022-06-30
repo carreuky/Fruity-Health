@@ -199,10 +199,21 @@ i:hover {
 /* Responsive ness */
 @media screen and (max-width: 1080px) {
     .menu{
+        display: flex;
         margin: 0px;
         margin-left: 50px;
         padding: 0px;
+        width: 30%;
     }
+.navButton {
+    display: none;
+    margin: 0px;
+    margin-right: 20px;
+}
+.logo-items{
+    font-size: 25px;
+}
+
     .quoteBrief  {
         flex-direction: column;
         padding-left: 0px;
@@ -225,11 +236,12 @@ i:hover {
      }
      #headingFruit{
        margin: 0px;
-       display: flex;
-       align-content: center;
+       padding: 0px;
        font-size: 20px;
        margin-top: 20px;
        margin-left: 20px;
+       margin-right: 20px;
+       width:100%;
 
      }
      .quoteBrief {
